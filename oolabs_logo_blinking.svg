@@ -1,0 +1,27 @@
+<svg width="94" height="64" viewBox="23 18 94 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06B6D4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 첫 번째 O (ㅇ 형태) -->
+  <circle cx="50" cy="45" r="20" fill="none" stroke="url(#gradient1)" stroke-width="4"/>
+  <ellipse cx="50" cy="45" rx="8" ry="8" fill="url(#gradient1)" opacity="0.3">
+    <animate attributeName="ry" dur="5s" values="8;8;0;8;8" keyTimes="0;0.8;0.85;0.9;1" repeatCount="indefinite" />
+  </ellipse>
+  
+  <!-- 두 번째 O (ㅇ 형태) -->
+  <circle cx="90" cy="45" r="20" fill="none" stroke="url(#gradient2)" stroke-width="4"/>
+  <ellipse cx="90" cy="45" rx="8" ry="8" fill="url(#gradient2)" opacity="0.3">
+     <animate attributeName="ry" dur="5s" values="8;8;0;8;8" keyTimes="0;0.8;0.85;0.9;1" repeatCount="indefinite" />
+  </ellipse>
+  
+  <!-- 하단 장식선 -->
+  <rect x="40" y="75" width="60" height="2" fill="url(#gradient1)" opacity="0.6"/>
+</svg>
