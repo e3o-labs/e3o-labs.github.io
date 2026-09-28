@@ -56,10 +56,15 @@ a { color: var(--deep-forest); }
 .site-nav a[aria-current="page"] { color: var(--coral-dark); }
 
 .hero,
-.section {
+.section,
+.support {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 28px;
+}
+
+.support {
+  padding: clamp(30px, 5vw, 58px);
 }
 
 .hero {
@@ -150,6 +155,12 @@ h3 {
   max-width: 650px;
   margin: 22px 0 0;
   font-size: clamp(1.08rem, 2vw, 1.3rem);
+}
+
+.notice {
+  max-width: 760px;
+  margin: 18px 0 0;
+  color: var(--muted);
 }
 
 .hero-actions {
@@ -440,7 +451,8 @@ footer a:focus-visible {
     flex-direction: column;
   }
 
-  .section { border-radius: 20px; padding: 30px 22px; }
+  .section,
+  .support { border-radius: 20px; padding: 30px 22px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
