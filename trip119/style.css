@@ -458,3 +458,46 @@ footer a:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+/* Fallback while private app assets are not anonymously accessible. */
+.hero-art.asset-fallback {
+  min-height: 520px;
+  background: linear-gradient(150deg, var(--mist), #f8eee7);
+}
+.hero-art.asset-fallback::before {
+  content: "TRIP119";
+  display: grid;
+  place-items: center;
+  width: 148px;
+  height: 148px;
+  border-radius: 34px;
+  background: var(--forest);
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: -.04em;
+  box-shadow: 0 18px 50px rgba(13,59,49,.16);
+}
+.hero-art.asset-fallback::after {
+  content: "계획이 바뀌어도, 다음 선택은 이어집니다.";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 58px;
+  color: var(--deep-forest);
+  font-size: 1.05rem;
+  font-weight: 800;
+  text-align: center;
+}
+.visual-section.asset-fallback::after {
+  content: "상황 변화 → 조건 확인 → 후보 비교 → 여행 이어가기";
+  display: grid;
+  place-items: center;
+  min-height: 260px;
+  padding: 32px;
+  border-radius: 22px;
+  background: linear-gradient(150deg, var(--mist), #f8eee7);
+  color: var(--deep-forest);
+  font-size: clamp(1.15rem, 2.4vw, 1.6rem);
+  font-weight: 800;
+  text-align: center;
+}
