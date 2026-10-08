@@ -459,7 +459,7 @@ footer a:focus-visible {
   html { scroll-behavior: auto; }
 }
 
-/* Fallback while private app assets are not anonymously accessible. */
+/* Fallback if a public image temporarily fails to load. */
 .hero-art.asset-fallback {
   min-height: 520px;
   background: linear-gradient(150deg, var(--mist), #f8eee7);
