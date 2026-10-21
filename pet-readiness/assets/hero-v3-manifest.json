@@ -4,8 +4,6 @@
   "site_url": "https://e3o-labs.github.io/pet-readiness/",
   "original_publication_commit": "38a2ac117f6a9d4857cbb76fd83b2a7e75514269",
   "approved_on": "2026-10-22",
-  "original_source": "docs/pet-readiness/hero/history/landing-hero-v3-everyday-care.png",
-  "prompt": "docs/pet-readiness/hero/history/landing-hero-v3-prompt.txt",
   "files": [
     {
       "path": "pet-readiness/index.html",
@@ -22,5 +20,6 @@
       "bytes": 31548,
       "sha256": "489fd8e3b39338f1f080c3eba76023390b8878293c37c158c33eed6b055943f7"
     }
-  ]
+  ],
+  "source_materials": "Originals and design history are maintained in the application design archive."
 }
