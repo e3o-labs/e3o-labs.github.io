@@ -71,6 +71,22 @@ p {
     line-height: 1.5;
 }
 
+.shortcut-pet {
+    background-color: #244b3b;
+}
+
+.shortcut-pet:hover {
+    background-color: #173a2a;
+}
+
+.shortcut-lucky {
+    background-color: #225b3c;
+}
+
+.shortcut-lucky:hover {
+    background-color: #17432c;
+}
+
 .shortcut-icon {
     display: inline-flex;
     align-items: center;
