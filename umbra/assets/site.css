@@ -6,3 +6,16 @@
 /* Keep the language link and navigation readable on small screens. */
 [lang="en"]{word-break:normal;overflow-wrap:anywhere}
 @media(max-width:720px){nav{flex-wrap:wrap;padding-block:18px}nav .links{flex-wrap:wrap;row-gap:12px}.hero h1{font-size:clamp(30px,8vw,44px);letter-spacing:-1px}}
+
+/* Six-language navigation and actual Duo test-build screenshot. */
+.language-switch{min-height:0;justify-content:flex-start;gap:10px 20px;flex-wrap:wrap;padding:16px 0;font-size:13px;border-bottom:1px solid var(--line)}
+.language-switch a[aria-current="page"]{font-weight:700;text-decoration-thickness:2px}
+.native-frame{border:7px solid #35362d;border-radius:22px;overflow:hidden;box-shadow:0 20px 48px #38392a26}
+.native-frame img{display:block;width:100%;height:auto}
+.hero{grid-template-columns:1fr 1.1fr;gap:48px}.locale-page{word-break:normal;overflow-wrap:anywhere}.locale-page .feature h2{font-size:24px}
+.contact{overflow-wrap:anywhere}.doc section{margin-block:32px}
+@media(max-width:720px){.hero{grid-template-columns:1fr;gap:32px}.language-switch{padding:14px 0;gap:10px 16px}.native-frame{border-width:5px;border-radius:15px}}
+
+.hero>*{min-width:0}.native-frame{max-width:100%}
+
+.hero h1{font-size:clamp(36px,4.5vw,58px)}
