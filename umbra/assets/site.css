@@ -19,3 +19,6 @@
 .hero>*{min-width:0}.native-frame{max-width:100%}
 
 .hero h1{font-size:clamp(36px,4.5vw,58px)}
+
+/* Official Apple badge artwork is preserved at its native aspect ratio. */
+.app-store-link{display:inline-flex;flex:0 0 auto;line-height:0;padding:0;background:none;border-radius:0}.app-store-link img{display:block;width:auto;height:48px;max-width:100%}.app-store-credit{margin-top:16px;font-size:12px}.actions:has(.app-store-link){gap:20px}
